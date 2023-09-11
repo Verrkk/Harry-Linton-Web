@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Linton</title>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Page links -->
+
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js" rel="script"></script>
+</head>
+<body>
+
+<!-- Navigation bar -->
+
+<div class="sidenav" id="cvSidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <img id="portrait"src="/images/portrait.jpg" alt="404"/>
+
+    <a href ="https://www.linkedin.com/in/harry-linton-6b1b1a16b/" target="_blank">Harry Linton</a>
+
+    <hr/>
+
+    <a href="./index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="./portolio.html"><i class="fa fa-fw fa-id-card-o"></i> Portolio</a>
+    <a href="./cv.html"><i class="fa fa-fw fa-file-text"></i> CV</a>
+    <a href="./timeline.html"><i class="fa fa-fw fa-calendar"></i> Timeline</a>
+    <a href="./contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+</div>
+
+<div class="card-nav container-fluid d-flex align-items-center justify-content-center">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+            &#9776;
+    </span>
+    <h1 style="text-align: center;">
+        Harry Linton
+    </h1>
+</div>
+
+<br>
+
+<!-- Main content -->
+
+<div class="home-body">
+    <div class="column main">
+        <div class="card">
+            <video width="1200" height="500" controls>
+                <source src="./videos/me-video.mkv" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="column side">
+        <div class="card">
+            <h3>Welcome to the Harry Linton website!</h3>
+
+                <hr/>
+    
+            <p>Introduction to myself, who i am, what i do, my passions, explaining this website, where everything is located, explaining i learn by DOING, introduce the video on the side!</p>
+        </div>
+    </div>
+</div>
+
+<div class="card-block">
+
+    <div>
+        <h3>Language Skills chart</h3>
+    
+        <hr>
+
+        <p>I have showcased my proficiency and understanding of various programming languages I've acquired over time (PHP, HTML, JavaScript and frameworks such as Laravel and Vue), quantifying my expertise in each respective domain through percentage breakdowns in a graph shown below! </p>
+    </div>
+
+    <p style="margin-top: 10px;">HTML</p>
+        <div class="graph-container">
+            <div class="skills html">90%</div>
+        </div>
+    <p style="margin-top: 10px;">CSS</p>
+        <div class="graph-container">
+            <div class="skills css">80%</div>
+        </div>
+    <p style="margin-top: 10px;">JavaScipt</p>
+        <div class="graph-container">
+            <div class="skills javascript">70%</div>
+        </div>
+    <p style="margin-top: 10px;">PHP</p>
+        <div class="graph-container">
+            <div class="skills php">65%</div>
+        </div>
+    <p style="margin-top: 10px;">.Vue</p>
+        <div class="graph-container">
+            <div class="skills vue">30%</div>
+        </div>
+    <p style="margin-top: 10px;">Laravel</p>
+        <div class="graph-container">
+            <div class="skills laravel">30%</div>
+        </div>
+</div>
+
+<br>
+
+<div class="card-interests">
+    <div>
+        <h2>Animation of interests and hobbies</h2>
+    
+        <hr>
+
+        <p>
+            As a guy sitting behind a desk a lot for coding, i actually have a surprising amount of interests and hobbies i try to partake in!
+        </p>
+
+        <p>
+            As for my interests, i usually an open minded to a lot of different experiences and trying to engulf myself in as many different experiences as i can!<br>
+            At the moment i currently love watching anime, going for drives and exploring, creating models through model/gundam kit builds, playing video games and watching or partaking in sports such as basket ball, baseball and snooker!
+        </p>
+
+        <p>
+            For my Hobbies, i usually try to spend my time within a variety so im not repeating the same process over and over. I can break up my days by either going for drives and meeting friends and playing snooker/pool, a relaxing day inside playing video games (Halo Infinite, Fortnite or Final Fantasy 7), watching some sports highlights (as from listed above) or by cracking on with some learning albeit my Japanese lessons or refining my coding skills!
+        </p>
+    </div>
+</div>
+
+<br>
+
+<div class="card">
+    <div class="container">
+        <div class="main-title">Interests</div>
+        <div class="content">
+            <input type="radio" name="indicator" checked id="coding">
+            <input type="radio" name="indicator" id="japanese">
+            <input type="radio" name="indicator" id="gaming">
+            <input type="radio" name="indicator" id="collectables">
+            <div class="list">
+                <label for="coding" class="coding">
+                    <span class="topic">Coding</span>
+                </label>
+                <label for="japanese" class="japanese">
+                    <span class="topic">Japanese</span>
+                </label>
+                <label for="gaming" class="gaming">
+                    <span class="topic">Gaming</span>
+                </label>
+                <label for="collectables" class="collectables">
+                    <span class="topic">Collectables</span>
+                </label>
+                <div class="indicator"></div>
+            </div>
+            <div class="text-content">
+                <div class="coding text">
+                    <div class="title">Coding content</div>
+                    <p>
+                        I have been hard coding since 2022 and have been loving it ever since i got my hands on the experience! from working within coding to even working on personal project at home i have been trying to divulge myself within the field as best i can whenever i can.
+                        To further enhance my studies and my practice i have been trying my best at creating personal projects and slowly but surely increasing my knowledge within the field to create a fluid experience for users but a fun one at that!<br>
+                        I have been going into each aspect of creating a website and trying to recreate through practice for example by creating a small website but focusing on having a functioning API!
+                        to find futher information on all of my projects, please seek the portfolio tab on this site or locate my github in the footer!
+                    </p>
+                </div>
+                <div class="japanese text">
+                    <div class="title">Japanese content</div>
+                    <p>
+                        For time i have been interested within the Japanese language trying to understand and learn the various types of dialects they have from: Katakana, Hirigana and Kanji. I took it upon myself to seek further help within the field and hired a tutor to help me learn the language.<br><br>
+
+                        I have been learning the language since 2nd June 2023 and have been learning to speak in the language but not so much in the reading aspect, i have been picking it up as i go for when i speak, but the main aim is to become fluent and pick up on the words and write them down as i learn them.
+                        It has been an incredible experience and i wont stop until i become fluent within the language completely!
+                    </p>
+                </div>
+                <div class="gaming text">
+                    <div class="title">Gaming content</div>
+                    <p>
+                        Gaming has always been in my blood! i cant remember a time in my life i havent played a game, i grew up on nintendo, up to xbox 360 and now onto PC. I usually favour onto FPS games, finding myself on ranked and almost at the top ranks on any game i get onto.
+
+                        Some games i usually play are: Halo Infinite, CSGO, Valorant, Fortnite, Diablo 4 or even some single players such as Final Fantasy 7, Spider-man and CyberPunk 2077.
+                    </p>
+                </div>
+                <div class="collectables text">
+                    <div class="title">Collectables content</div>
+                    <p>
+                        Outside of these other 3 interests, i usually partake in model kits, which is a fairly new hobby of mine but i usually find myself being able to treat myself to various different gundam kits to build, so far i have made 3 gundam kits with one kit ready to make later when i deserve it!<br>
+<br>
+                        Kits i have made so far is the Evangelion unit 01, Gundam RX-71 Real Grade and Introduction grade.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer bar -->
+
+<div class="footer-ns row">
+    <div class="socials col-6">
+        <h4>Socials:</h4>
+        <a href="https://www.linkedin.com/in/harry-linton-6b1b1a16b/" target="_blank"><img src="/images/LinkedIn.png" alt="404"/></a>
+        <a href="https://github.com/Verrkk" target="_blank"><img src="/images/GitHub.png" alt="404"/></a>
+    </div>
+
+    <div class="Contact col-6">
+        <h4>Contact Me:</h4>
+        <p>Email: <a href="mailto:harrylinton99@gmail.com?" target="_blank">harrylinton99@gmail.com</a></p>
+        <p>Phone Number: (UK: +44) <a href="tel:+447398114538" target="_blank">07398 114538</a></p>
+    </div>
+</div>
+
+</body>
+</html>
